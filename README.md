@@ -16,9 +16,9 @@ Create a NextJS application, using TypeScript. The web application should be abl
 
 ## Limitations
 
-Limitation: To use Facebook User Login Authenticator, I had to create a Consumer App on the Meta Developer Platform. However, a Consumer App does not provide api methods to POST posts on Facebook. Meta Graph API calls can only be created via a Business App, and Business Apps takes 10 days to be approved (with proper app Privacy Policy and Terms & Conditions done)
+**Limitation:** To use Facebook User Login Authenticator, I had to create a Consumer App on the Meta Developer Platform. However, a Consumer App does not provide api methods to POST posts on Facebook. Meta Graph API calls can only be created via a Business App, and Business Apps takes 10 days to be approved (with proper app Privacy Policy and Terms & Conditions done)
 
-Solution: I created a Consumer App on Meta Developer Platform to connect the Clerk Authenticator (user will have to grant permissions on Facebook to login to Bardbook). I then created a separate Business App that is connected to a [Bardbook Facebook Page](https://www.facebook.com/profile.php?id=61554628525650) to POST posts via the Meta Graph API.
+**Solution:** I created a Consumer App on Meta Developer Platform to connect the Clerk Authenticator (user will have to grant permissions on Facebook to login to Bardbook). I then created a separate Business App that is connected to a [Bardbook Facebook Page](https://www.facebook.com/profile.php?id=61554628525650) to POST posts via the Meta Graph API.
 
 ## Installation
 
