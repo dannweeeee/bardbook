@@ -4,8 +4,6 @@
 
 <img width="1440" alt="Screenshot 2023-12-10 at 10 52 52 PM" src="https://github.com/dannweeeee/bardbook/assets/42776950/e4c0fd6b-a98e-404a-8c19-666c9c893c09">
 
-[Presentation Video](https://www.loom.com/share/7ff86d5d5db044e1af1ad82603211897?sid=267ee477-1a70-42a9-9b65-b171f4a6914f)
-
 ## Task
 
 Create a NextJS application, using TypeScript. The web application should be able to signup/login via Facebook OAuth2 & publish posts on Facebook.
